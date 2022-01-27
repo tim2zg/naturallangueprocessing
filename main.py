@@ -1,3 +1,5 @@
 import npl_first
 
-print(npl_first.make_first_nlp("Schallte den Screen um 13 Uhr ein!"))
+input_text = input("Enter text: ")
+result = npl_first.make_first_nlp(input_text)
+
