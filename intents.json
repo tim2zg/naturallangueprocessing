@@ -16,7 +16,7 @@
     },
     {
       "tag": "play_music",
-      "patterns": ["spiele", "play", "musik"],
+      "patterns": ["spiele", "play", "musik", "Radio"],
       "responses": [
         "PLAY"
       ]
