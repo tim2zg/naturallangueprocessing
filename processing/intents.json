@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "do_something",
+      "patterns": [
+        "Lasse",
+        "Mache",
+        "Tue",
+        "Kannst du",
+        "Schalte",
+        "Mache"
+      ],
+      "responses": [
+        "DO"
+      ]
+    },
+    {
+      "tag": "play_music",
+      "patterns": ["spiele", "play", "musik"],
+      "responses": [
+        "PLAY"
+      ]
+    },
+    {
+      "tag": "get_info",
+      "patterns": ["wie", "ist"],
+      "responses": ["INFO"]
+    },
+    {
+      "tag": "get_weather",
+      "patterns": ["wetter", "wetter", "wetter"],
+      "responses": ["WEATHER"]
+    },
+    {
+      "tag": "get_news",
+      "patterns": ["news", "news", "news"],
+      "responses": ["NEWS"]
+    }
+  ]
+}
