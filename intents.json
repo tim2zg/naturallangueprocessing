@@ -35,6 +35,51 @@
       "tag": "get_news",
       "patterns": ["news", "news", "news"],
       "responses": ["NEWS"]
+    },
+    {
+      "tag": "tim",
+      "patterns": ["Zimmer", "tim", "mein"],
+      "responses": ["l-tim"]
+    },
+    {
+      "tag": "Wohnzimmer",
+      "patterns": ["wohnzimmer", "home"],
+      "responses": ["l-wohnzimmer"]
+    },
+    {
+      "tag": "True",
+      "patterns": ["ein", "an", "on"],
+      "responses": ["True"]
+    },
+    {
+      "tag": "aus",
+      "patterns": ["aus", "stop", "off"],
+      "responses": ["False"]
+    },
+    {
+      "tag": "rauf",
+      "patterns": ["rauf", "hoch"],
+      "responses": ["rauf"]
+    },
+    {
+      "tag": "runter",
+      "patterns": ["runter", "herunter"],
+      "responses": ["runter"]
+    },
+    {
+      "tag": "store",
+      "patterns": ["store", "rollanden"],
+      "responses": ["store"]
+    },
+    {
+      "tag": "licht",
+      "patterns": ["licht"],
+      "responses": ["licht"]
+    },
+    {
+      "tag": "PC",
+      "patterns": ["PC", "Computer"],
+      "responses": ["PC"]
     }
   ]
 }
