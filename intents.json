@@ -52,13 +52,13 @@
       "responses": ["True"]
     },
     {
-      "tag": "aus",
+      "tag": "False",
       "patterns": ["aus", "stop", "off"],
       "responses": ["False"]
     },
     {
       "tag": "rauf",
-      "patterns": ["rauf", "hoch"],
+      "patterns": ["rauf", "hoch", "herauf"],
       "responses": ["rauf"]
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "tag": "store",
-      "patterns": ["store", "rollanden"],
+      "patterns": ["store", "rollanden", "Storen"],
       "responses": ["store"]
     },
     {
