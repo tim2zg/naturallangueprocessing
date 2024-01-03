@@ -5,3 +5,5 @@ spacy==3.2.1
 torch==1.13.1
 certifi>=2022.12.7
 pydantic>=1.10.13
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
